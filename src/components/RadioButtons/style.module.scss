@@ -1,0 +1,20 @@
+@import '../../variables';
+
+.btn {
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  &.active {
+    background-color: $highlight;
+    color: $white;
+    -webkit-box-shadow: 0px 69px 75px -62px rgba(0,0,0,0.56);
+    -moz-box-shadow: 0px 69px 75px -62px rgba(0,0,0,0.56);
+    box-shadow: 0px 69px 75px -62px rgba(0,0,0,0.56);
+  }
+}
+
+.container {
+  display: flex;
+  border-radius: 100px;
+  overflow: hidden;
+}

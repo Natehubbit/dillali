@@ -1,0 +1,29 @@
+@import '../../variables';
+
+.container {
+  border-right: 1px solid $border;
+  width: 15%;
+  &.invert {
+    background: $invert;
+    color: $white;
+  }
+  .list {
+    list-style-type: none;
+    padding: 0;
+    .listItem {
+      margin: 5px;
+      padding: 10px;
+      cursor: pointer;
+      &.active {
+        background-color: $highlight;
+        color: $white;
+        border-radius: 10px;
+      }
+      &:hover {
+        background-color: $highlight;
+        color: $white;
+        border-radius: 10px;
+      }
+    }
+  }
+}
